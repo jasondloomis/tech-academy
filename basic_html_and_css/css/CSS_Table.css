@@ -1,0 +1,25 @@
+h1 {
+	text-shadow: 1px 1px grey;
+}
+ol {
+	list-style-type: upper-roman;
+}
+ul {
+	list-style-type: square;
+}
+table {
+	border: 1px solid black;
+}
+
+td:hover {
+	background-color: yellow;
+	color: green;
+}
+tr, th {
+	background-color: grey;
+	color: black;
+}
+tr,td {
+	background-color: navy;
+	color: white;
+}
