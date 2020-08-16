@@ -1,0 +1,39 @@
+body {
+    background-color: #c0c0c0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+fieldset {
+    background-color: #6f98a8;
+    font-weight: bold;
+    margin: 10px 0px 10px 2%;
+    border: 2px solid #000;
+}
+
+#vInfo {
+    width: 45%;
+}
+
+#vComments {
+    width: 35%;
+}
+
+label, textarea, input {
+	display: block;
+	float: left;
+	font-size: 14px;
+	margin: 7px;
+	width: 50%;
+}
+
+textarea {
+    height: 150px;
+    width: 75%;
+}
+
+.button {
+    font-weight: bold;
+    border: 2px solid #2b56e2;
+    border-radius: 2%;
+}

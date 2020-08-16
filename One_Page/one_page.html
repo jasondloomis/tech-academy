@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>One Page</title> 
+        <link href="./css/one_page.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+	
+    <form id="commentCard" name="commentCard" action="#" method="post">
+        <fieldset id="vInfo">
+            <legend>Vistor Info</legend>
+
+            <label for="vName">Name *</label>
+            <input name="vName" placeholder="First and Last Name" required="required" />
+
+            <label for="vState">State *</label>
+            <input name="vState" id="vState" required="required" />
+
+            <label for="vEmail">E-mail *</label>
+            <input name="vEmail" required="required"/>
+
+        </fieldset>
+
+        <fieldset id="vComments">
+            <legend>Vistor Comments</legend>
+
+            <label for="vComments">Comments</label>
+            <textarea name="vComments" placeholder="Enter your comments here"></textarea>
+            <input type="submit" class="button" value="Submit Comments" />
+            <input type="reset" class="button" value="Reset" />
+        </fieldset>
+    </form>
+	
+	
+	</body>
+</html>
