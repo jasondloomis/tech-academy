@@ -46,6 +46,11 @@ body {
 	z-index: -1;
 }
 
+/* Main heading color */ 
+#main_heading {
+	color: #fff;
+}
+
 /* Text over the video */ 
 .Video_Text { 
 	background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
@@ -113,7 +118,7 @@ p {
 }
 
 /* Center align elements - this embraces all centered text */
-center {
+.center_text {
 	font-family: Perpetua, Rockwell Extra Bold;
 	text-align: center;
 	letter-spacing: 1px;
@@ -189,23 +194,11 @@ form {
 	font-family: "Trebuchet MS", Optima;
 }
 
-/* Center align element hover effect */
-center:hover {
-	transition: transform 2s;
-	transform: scale(1.1);
-}
-
-/* Paragraph element hover effect */
-p:hover {
-	color: #00004d;	
-    transition: transform 1s;
-	transform: scale(1.01);
-}
-
 /* Heading 1 element hover effect */
 h1:hover {
-	color: black;
-	font-weight: normal; /* Makes the text no longer bold when hovered over */ 
+	color: #3a3ad3;
+	transition: transform 1s;
+	transform: scale(1.1);
 }
 
 /* Image element hover effects */
